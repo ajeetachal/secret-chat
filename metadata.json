@@ -1,0 +1,6 @@
+{
+  "name": "BriefRoom",
+  "description": "Zero-storage ephemeral browser chat with secret code rooms, max 1-minute message timers, screen-full auto-delete, screen-lock wipe, and an interactive guide bot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
