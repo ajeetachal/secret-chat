@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Plus Jakarta Sans', 'DM Sans', ui-sans-serif, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 12% 0%, rgb(224 242 254 / 0.9), transparent 42%),
+    radial-gradient(circle at 100% 100%, rgb(241 245 249), transparent 50%);
+  background-attachment: fixed;
+}
+
+.grain {
+  background-image: linear-gradient(rgb(15 23 42 / 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(15 23 42 / 0.035) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+@keyframes ttl-drain {
+  from { transform: scaleX(1); }
+  to { transform: scaleX(0); }
+}
